@@ -302,8 +302,8 @@ section {
     align-items: center;
     justify-content: space-between;
     padding: 0 3px;
-    font-family: var(--font-primary);
-    font-size: 14px;
+    font-family: var(--font-default);
+    font-size: 18px;
     font-weight: 500;
     color: rgba(255, 255, 255, 0.6);
     text-transform: uppercase;
@@ -1882,8 +1882,8 @@ section {
   color: #fff;
   margin-bottom: 30px;
   padding-bottom: 30px;
-  font-size: 56px;
-  font-weight: 700;
+  font-size: 65px;
+  font-weight: 300;
   position: relative;
 }
 
@@ -1912,7 +1912,7 @@ section {
 }
 
 .hero .info .btn-get-started {
-  font-family: var(--font-primary);
+  font-family: var(--font-default);
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
