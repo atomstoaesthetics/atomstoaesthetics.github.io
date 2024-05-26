@@ -1921,8 +1921,10 @@ section {
   border-radius: 20px;
   transition: 2.5s;
   margin: 50px;
+  margin-left: 700px;
   color: #fff;
   border: 1px solid var(--color-secondary);
+  white-space: nowrap;
 }
 
 .hero .info .btn-get-started:hover {
