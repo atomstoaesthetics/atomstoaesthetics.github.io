@@ -432,7 +432,7 @@ section {
     width: 100%;
     max-width: 400px;
     bottom: 0;
-    transition: 0.3s;
+    transition: 0.5s;
     z-index: 9997;
   }
 
@@ -441,7 +441,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(81, 76, 76, 0.8);
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
@@ -456,7 +456,7 @@ section {
     font-family: var(--font-primary);
     font-size: 15px;
     font-weight: 500;
-    color: rgba(0, 0, 0, 0.7);
+    color: rgba(255, 255, 255, 0.7);
     white-space: nowrap;
     text-transform: uppercase;
     transition: 0.3s;
@@ -473,7 +473,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #fff;
+    color: #ffffff;
   }
 
   .navbar .dropdown ul,
@@ -483,7 +483,7 @@ section {
     padding: 10px 0;
     margin: 10px 20px;
     transition: all 0.5s ease-in-out;
-    border: 1px solid #000000;
+    border: 1px solid #060606;
   }
 
   .navbar .dropdown>.dropdown-active,
@@ -493,13 +493,13 @@ section {
 
   .mobile-nav-show {
     position: relative;
-    color: #fff;
+    color: #ffffff;
     font-size: 28px;
     cursor: pointer;
     line-height: 0;
     transition: 0.5s;
     z-index: 9999;
-    padding-right: 10px;
+    padding-right: 10000px;
   }
 
   .mobile-nav-hide {
@@ -526,7 +526,7 @@ section {
     content: "";
     position: fixed;
     inset: 0;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(255, 255, 255, 0.6);
     z-index: 9996;
   }
 }
