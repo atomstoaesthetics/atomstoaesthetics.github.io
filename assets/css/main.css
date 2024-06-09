@@ -509,7 +509,7 @@ section {
     line-height: 0;
     transition: 0.5s;
     position: fixed;
-    right: 20px;
+    right: 100px;
     top: 20px;
     z-index: 9999;
   }
