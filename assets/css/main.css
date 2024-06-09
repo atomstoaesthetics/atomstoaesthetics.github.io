@@ -405,7 +405,7 @@ section {
 
 @media (min-width: 1280px) and (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
-    left: -10%;
+    left: -90%;
   }
 
   .navbar .dropdown .dropdown:hover>ul {
@@ -441,7 +441,7 @@ section {
     inset: 0;
     padding: 50px 0 10px 0;
     margin: 0;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(0, 0, 0, 0.8);
     overflow-y: auto;
     transition: 0.3s;
     z-index: 9998;
