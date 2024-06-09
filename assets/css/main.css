@@ -428,7 +428,7 @@ section {
   .navbar {
     position: fixed;
     top: 0;
-    right: 100%;
+    right: -100%;
     width: 100%;
     max-width: 400px;
     bottom: 0;
@@ -483,7 +483,7 @@ section {
     padding: 10px 0;
     margin: 10px 20px;
     transition: all 0.5s ease-in-out;
-    border: 1px solid #222428;
+    border: 1px solid #eef0f4;
   }
 
   .navbar .dropdown>.dropdown-active,
