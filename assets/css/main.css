@@ -302,13 +302,13 @@ section {
     align-items: center;
     justify-content: space-between;
     padding: 0 10px;
-    font-family: var(--font-default);
-    font-size: 22px;
-    font-weight: 300;
+    font-family: 'roboto';
+    font-size: 18px;
+    font-weight: 500;
     color: rgb(0, 0, 0);
-    text-transform: uppercase;
+    text-transform: capitalize;
     white-space: nowrap;
-    transition: 0.5s;
+    transition: 1s;
     position: relative;
   }
 
@@ -326,7 +326,7 @@ section {
     height: 2px;
     bottom: -6px;
     left: 0;
-    background-color: var(--color-primary);
+    background-color: none;
     visibility: hidden;
     width: 0px;
     transition: all 0.3s ease-in-out 0s;
