@@ -430,7 +430,7 @@ section {
     top: 0;
     right: -100%;
     width: 100%;
-    max-width: 250px;
+    max-width: 200px;
     bottom: 0;
     transition: 1s;
     z-index: 9997;
@@ -450,7 +450,7 @@ section {
   .navbar a,
   .navbar a:focus {
     display: flex;
-    align-items: center;
+    align-items: normal;
     justify-content: space-between;
     padding: 10px 20px;
     font-family: 'roboto';
