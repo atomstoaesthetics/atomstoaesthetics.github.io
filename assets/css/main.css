@@ -432,7 +432,7 @@ section {
     width: 100%;
     max-width: 200px;
     bottom: 0;
-    transition: 1s;
+    transition: 0.5s;
     z-index: 9997;
   }
 
@@ -459,7 +459,7 @@ section {
     color: rgba(255, 255, 255, 0.7);
     white-space: nowrap;
     text-transform: capitalize;
-    transition: 1s;
+    transition: 0.5s;
   }
 
   .navbar a i,
