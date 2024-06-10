@@ -430,9 +430,9 @@ section {
     top: 0;
     right: -100%;
     width: 100%;
-    max-width: 400px;
+    max-width: 250px;
     bottom: 0;
-    transition: 0.5s;
+    transition: 1s;
     z-index: 9997;
   }
 
@@ -453,13 +453,13 @@ section {
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
-    font-family: var(--font-primary);
-    font-size: 15px;
-    font-weight: 500;
+    font-family: 'roboto';
+    font-size: 20px;
+    font-weight: 400;
     color: rgba(255, 255, 255, 0.7);
     white-space: nowrap;
-    text-transform: uppercase;
-    transition: 0.3s;
+    text-transform: capitalize;
+    transition: 1s;
   }
 
   .navbar a i,
