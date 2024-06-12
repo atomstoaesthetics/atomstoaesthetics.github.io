@@ -116,13 +116,12 @@ section {
   min-height: 30vh;
   position: relative;
   background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
 }
 
 .breadcrumbs:before {
   content: "";
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0);
   position: absolute;
   inset: 0;
 }
