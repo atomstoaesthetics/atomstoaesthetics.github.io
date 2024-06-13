@@ -113,7 +113,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 100px 0 60px 0;
-  min-height: 10vh;
+  min-height: 30vh;
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
@@ -121,13 +121,13 @@ section {
 
 .breadcrumbs:before {
   content: "";
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.8);
   position: absolute;
   inset: 0;
 }
 
 .breadcrumbs h2 {
-  font-size: 56px;
+  font-size: 46px;
   font-weight: 500;
   color: #646262;
   font-family: var(--font-secondary);
