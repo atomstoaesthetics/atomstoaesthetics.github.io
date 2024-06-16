@@ -133,6 +133,13 @@ section {
   font-family: var(--font-secondary);
 }
 
+.breadcrumbs h3 {
+  font-size: 30px;
+  font-weight: 500;
+  color: #646262;
+  font-family: var(--font-secondary);
+}
+
 .breadcrumbs ol {
   display: flex;
   flex-wrap: wrap;
