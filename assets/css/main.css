@@ -499,7 +499,7 @@ section {
 
   .mobile-nav-show {
     position: relative;
-    color: #ffffff;
+    color: rgba(0, 0, 0, 1);
     font-size: 28px;
     cursor: pointer;
     line-height: 0;
