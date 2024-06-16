@@ -349,7 +349,7 @@ section {
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover>a {
-    color: #fff;
+    color: #837e7e;
   }
 
   .navbar .dropdown ul {
@@ -465,7 +465,7 @@ section {
     color: rgba(255, 255, 255, 0.7);
     white-space: nowrap;
     text-transform: capitalize;
-    transition: 0.5s;
+    transition: 0.1s;
   }
 
   .navbar a i,
