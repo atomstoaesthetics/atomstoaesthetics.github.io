@@ -1405,7 +1405,7 @@ section {
 # Projet Details Section
 --------------------------------------------------------------*/
 .project-details .portfolio-details-slider img {
-  width: 60%;
+  width: 100%;
 }
 
 .project-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
