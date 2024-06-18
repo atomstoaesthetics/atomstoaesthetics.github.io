@@ -130,14 +130,14 @@ section {
   font-size: 46px;
   font-weight: 500;
   color: #646262;
-  font-family: var(--font-secondary);
+  font-family: "optima";
 }
 
 .breadcrumbs h3 {
   font-size: 30px;
   font-weight: 500;
   color: #646262;
-  font-family: var(--font-secondary);
+  font-family: "optima";
 }
 
 .breadcrumbs ol {
