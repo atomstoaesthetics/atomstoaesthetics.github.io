@@ -2674,3 +2674,11 @@ section {
 .footer .footer-legal .credits a {
   color: var(--color-primary);
 }
+
+.mana-address {
+  color: #3341ff; /* Example color: Orange */
+}
+
+.mana-address:hover {
+  color: #0b0b0b; /* Hover color: Blue */
+}
