@@ -2,6 +2,8 @@ clc; clearvars; close all;
 num_images=32;
 rem = [8,12,14,16,24,26,30,6,32];
 JPG=[3,4,5,10,25];
+index=[1,28,4,10,18,15,11,19,22,23,13,27,05,07,29,17,09,31,02,25,20,21,3,8,12,14,16,24,26,30,6,32];
+%index=randperm(num_images,num_images);
 headings = ["Post wedding lunch with friends at Planta in Toronto!", ...
     "First date", ...
     "Sanjana walking down the Aisle at Toronto City Hall!", ...
@@ -68,8 +70,6 @@ paragraph = ["29th February 2024", ...
     "Canoe date" ];
 hstr="href";
 f=fopen("ourstorycode.dat","w");
-%index=randperm(num_images,num_images);
-index=[1,28,4,10,18,15,11,19,22,23,13,27,05,07,29,17,09,31,02,25,20,21,3, 8,12,14,16,24,26,30,6,32];
 for ii=1:num_images
     i=index(ii);
     if(any(i==rem))
