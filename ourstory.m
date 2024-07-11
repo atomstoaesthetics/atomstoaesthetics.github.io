@@ -86,7 +86,11 @@ for ii=1:num_images
         fprintf(f,"\t\t\t\t<div class=""portfolio-info"">\n");
         fprintf(f,sprintf("\t\t\t\t  <h4>%s</h4>\n", headings(i)));
         fprintf(f,sprintf("\t\t\t\t  <p>%s</p>\n", paragraph(i)));
-        fprintf(f,sprintf("\t\t\t\t  <a %s=""assets/img/ourstory_%02d.jpg"" title=""%s | %s"" data-gallery=""portfolio-gallery-remodeling"" class=""glightbox preview-link""><i class=""bi bi-zoom-in""></i></a>\n", hstr, i, paragraph(i), headings(i)));
+        if(any(i==JPG))
+            fprintf(f,sprintf("\t\t\t\t  <a %s=""assets/img/ourstory_%02d.JPG"" title=""%s | %s"" data-gallery=""portfolio-gallery-remodeling"" class=""glightbox preview-link""><i class=""bi bi-zoom-in""></i></a>\n", hstr, i, paragraph(i), headings(i)));
+        else
+            fprintf(f,sprintf("\t\t\t\t  <a %s=""assets/img/ourstory_%02d.jpg"" title=""%s | %s"" data-gallery=""portfolio-gallery-remodeling"" class=""glightbox preview-link""><i class=""bi bi-zoom-in""></i></a>\n", hstr, i, paragraph(i), headings(i)));
+        end
         fprintf(f,"\t\t\t\t</div>\n");
         fprintf(f,"\t\t\t  </div>\n");
         fprintf(f,"\t\t\t</div>\n");
