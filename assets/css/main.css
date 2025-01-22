@@ -58,6 +58,32 @@ h6 {
   font-family: var(--font-primary);
 }
 
+.video-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.video-container > div { 
+  width: 32%;
+  padding-bottom: 26.25%;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .video-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .video-container > div {
+    width: 90%;
+    max-width: 100%;
+    padding-bottom: 56.25%;
+  }
+}
+
 /*--------------------------------------------------------------
 # Sections & Section Header
 --------------------------------------------------------------*/
